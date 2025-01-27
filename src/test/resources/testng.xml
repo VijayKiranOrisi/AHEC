@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CapStoneProject Suite">
+    <test name="HomePage Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.capstone.HomePage"/>
+        </classes>
+    </test>
+    <test name="HomePage Tests Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.capstone.HomePage"/>
+        </classes>
+    </test>
+</suite>
